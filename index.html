@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery Indonesia</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/all.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Uni Carousel CSS -->
+    <link rel="stylesheet" href="css/jquery.uni-carousel.css" />
+    <!-- Flip Box CSS -->
+    <link rel="stylesheet" href="css/flip-box.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar vertical-navbar flex-column">
+        <a href="#void" id="open-menu" class="nav-link icon-nav"><i class="fas fa-bars text-white"></i></a>
+
+        <!-- <div class="page-nav">
+            <a href="#about" data-toggle="tooltip" data-placement="right" title="About"><i
+                    class="far fa-circle text-white"></i></a>
+
+            <hr class="custom-hr">
+
+            <a href="#top-loc" data-toggle="tooltip" data-placement="right" title="Top Location"><i
+                    class="fas fa-circle text-white"></i></a>
+
+            <hr class="custom-hr">
+
+            <a href="#culture" data-toggle="tooltip" data-placement="right" title="Culture"><i
+                    class="far fa-circle text-white"></i></a>
+        </div> -->
+    </nav>
+
+    <!-- Menu -->
+    <div class="container-fluid menu">
+        <nav class="navbar vertical-navbar flex-column">
+            <a href="#void" class="close-menu nav-link icon-nav"><i class="fas fa-times text-white"></i></a>
+        </nav>
+        <div class="row">
+            <a href="#about" class="col-md-4 menu-item close-menu">
+                <h1>Home</h1>
+            </a>
+            <a href="#top-loc" class="col-md-4 menu-item close-menu">
+                <h1>Top Location</h1>
+            </a>
+            <a href="#culture" class="col-md-4 menu-item close-menu">
+                <h1>Culture</h1>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Home -->
+    <div id="about" class="content">
+        <div class="text-box">
+            <h1>Discovery</h1>
+            <h2>Indonesia</h2>
+        </div>
+        <i class="fas fa-arrow-down custom-icon"></i>
+    </div>
+
+
+    <!-- Top Location -->
+    <div id="top-loc" class="content">
+        <div class="text-box">
+            <h1>Borobudur <br> Temple</h1>
+            <span class="line"> </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi at rerum molestias molestiae
+                consectetur, laudantium illo soluta aliquam corrupti expedita accusantium, doloremque quos
+                temporibus mollitia voluptate animi sunt nobis rem.</p>
+            <a href=""><button class="btn btn-light">Explore More</button></a>
+        </div>
+
+        <div class="pick-loc">
+
+            <h4>Top Location <span class="line ml-2"> </span></h4>
+
+            <!-- jquery-plugin with add overlay -->
+            <div class="uni-carousel">
+                <div class="uni-carousel-inner">
+                    <div class="uni-carousel-inner-limit">
+                        <div class="uni-carousel-item uni-carousel-item_active">
+                            <div class="uni-carousel-item-inner">
+                                <div id="img-loc-1" class="overlay"><i class="fas fa-search"></i></div>
+                                <img class="uni-carousel-item-media" src="images/loc-1.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="uni-carousel-item">
+                            <div class="uni-carousel-item-inner">
+                                <div id="img-loc-2" class="overlay"><i class="fas fa-search"></i></div>
+                                <img class="uni-carousel-item-media" src="images/loc-2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="uni-carousel-item">
+                            <div class="uni-carousel-item-inner">
+                                <div id="img-loc-3" class="overlay"><i class="fas fa-search"></i></div>
+                                <img class="uni-carousel-item-media" src="images/loc-3.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="uni-carousel-item">
+                            <div class="uni-carousel-item-inner">
+                                <div id="img-loc-4" class="overlay"><i class="fas fa-search"></i></div>
+                                <img class="uni-carousel-item-media" src="images/loc-4.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="uni-carousel-item">
+                            <div class="uni-carousel-item-inner">
+                                <div id="img-loc-5" class="overlay"><i class="fas fa-search"></i></div>
+                                <img class="uni-carousel-item-media" src="images/loc-5.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="uni-carousel-item">
+                            <div class="uni-carousel-item-inner">
+                                <div id="img-loc-6" class="overlay"><i class="fas fa-search"></i></div>
+                                <img class="uni-carousel-item-media" src="images/loc-6.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="uni-carousel-control uni-carousel-control_prev" href="javascript:void(0)"
+                    title="Prev"></a>
+                <a class="uni-carousel-control uni-carousel-control_next" href="javascript:void(0)"
+                    title="Next"></a> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Culture -->
+    <div id="culture" class="content">
+        <h1 class="text-center pt-3">Culture <br> of <br> Indonesia</h1>
+        <hr class="custom-hr">
+
+        <div class="card-flip">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/culture-1.jpg" alt="" class="culture-img">
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Reog <br> Ponorogo</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/culture-2.jpg" alt="" class="culture-img">
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Saman Dance</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/culture-3.jpg" alt="" class="culture-img">
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Wayang</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/culture-4.jpg" alt="" class="culture-img">
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Kecak Dance</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- pagination -->
+    <!-- <div class="pagination">
+        <a href="#about" data-toggle="tooltip" title="About"><i class="fas fa-circle icon-pagination"></i></a>
+
+        <div class="line"></div>
+
+        <a href="#top-loc" data-toggle="tooltip" title="Top Location"><i class="far fa-circle icon-pagination"></i></a>
+
+        <div class="line"></div>
+
+        <a href="#culture" data-toggle="tooltip" title="Culture"><i class="far fa-circle icon-pagination"></i></a>
+    </div> -->
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- Uni Carousel JS -->
+    <script src="js/jquery.uni-carousel.js"></script>
+
+    <!-- My JS -->
+    <script src="js/myJS.js"></script>
+    
+    <!-- Tooltip -->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
